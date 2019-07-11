@@ -1,4 +1,4 @@
-require_relative 'messaging/telegram/messaging/base'
+require_relative 'telegram/messaging/base'
 
 require 'telegram/bot'
 
