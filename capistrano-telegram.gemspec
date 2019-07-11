@@ -5,7 +5,7 @@ require 'capistrano/telegram/version'
 
 Gem::Specification.new do |spec|
   spec.name = "capistrano-telegram"
-  spec.version = Capistrano::TelegramNotification::VERSION
+  spec.version = Capistrano::Telegram::VERSION
   spec.authors = ["Mattia Malonni"]
   spec.email = ["mattia.malonni@gmail.com"]
   spec.summary = %q{Notify Capistrano deployment to Telegram.}
