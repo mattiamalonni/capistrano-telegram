@@ -4,7 +4,7 @@ Send notifications to Telegram about Capistrano deployments.
 
 ## Installation
 
-1. Add this line to your application's Gemfile:
+1. Add this line to your application's `Gemfile`:
 
    ```ruby
    gem 'capistrano-telegram'
@@ -22,7 +22,9 @@ Send notifications to Telegram about Capistrano deployments.
    require 'capistrano/telegram'
    ```
 
-### config/deploy.rb
+## Configuration
+
+1. Add these lines to your `config/deploy.rb` file:
 
 ```ruby
 set :telegram_bot_key, 'YOUR_BOT_ID'
