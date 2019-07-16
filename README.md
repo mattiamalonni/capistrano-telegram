@@ -26,7 +26,7 @@ Send notifications to Telegram about Capistrano deployments.
 
 1. Add these lines to your `config/deploy.rb` file:
 
-```ruby
-set :telegram_bot_key, 'YOUR_BOT_ID'
-set :telegram_chat_id, 'YOUR_BOT_CHAT_ID'
-```
+   ```ruby
+   set :telegram_bot_key, 'YOUR_BOT_ID'
+   set :telegram_chat_id, 'YOUR_BOT_CHAT_ID'
+   ```
